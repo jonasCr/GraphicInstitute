@@ -1,0 +1,245 @@
+/*Elementos general*/
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #A2A2A2;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+.clear {
+	clear: both;
+}
+
+.fila {
+	display: flex;
+	justify-content: space-between;
+}
+
+main {
+	width: 90%;
+	margin: auto;
+}
+
+.border {
+	border: 1px solid black;
+}
+/*header*/
+
+header {
+	background: linear-gradient(to bottom right, #3498DB, #1D5378);
+	-webkit-background: linear-gradient(bottom right, #3498DB, #1D5378);
+	-o-background: linear-gradient(bottom right, #3498DB, #1D5378);
+	-moz-background: linear-gradient(bottom right, #3498DB, #1D5378);
+}
+
+/*Barra de navigación*/
+
+nav {
+	background: #FCBF2C;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.left {
+	width: 80%;
+	padding: 1em;
+}
+
+.right {
+	width: 20%;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+nav li {
+	display: inline-block;
+	background: black;
+	padding: 7px;
+	border-radius: 7px;
+	margin: 0.5em;
+}
+
+nav a {
+	color: #FCBF2C;
+	text-decoration: none; 
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/*Titulo de la pagina*/
+.headtxt {
+	margin-left: 100px;
+	width: 70%;
+	padding-bottom: 20px;
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+}
+
+
+.headtxt span {
+	color: #FCBF2C; 
+}
+
+/*iframe*/
+
+iframe {
+	width: 100%;
+}
+
+/*main fuera del formulario*/ 
+
+h2 {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+}
+
+h3 {
+	text-align: center;
+	color: #1BBC9B;
+	font-size: 1.5em;
+}
+
+main p {
+	text-align: center;
+}
+
+.pequeno {
+	font-size: 1em;
+	margin: 0.5em;
+	font-weight: normal;
+}
+
+/*formulario*/
+
+form {
+	width: 50%;
+	margin: auto;
+	border-radius: 10px;
+	background: #1BBC9B;
+	color: white;
+	padding: 10px 50px 10px 50px;
+}
+
+
+.block label, .block input, .block textarea, .block select, .block button {
+	display: block;
+	width: 100%;
+}
+
+label {
+	margin-bottom: 0.5em;
+}
+
+input, select, textarea {
+	margin-bottom: 1.5em;
+	border: none;
+	background: #F8DD5C;
+	border-radius: 5px;
+	height: 2.5em;
+	padding: 5px;
+}
+
+textarea {
+	height: 5em;
+	background: #D3E9E6;
+}
+
+form span {
+	color: #F8DD5C;
+}
+
+form a {
+	font-size: 1em;
+	text-decoration: none;
+	color: white;
+}
+
+form a:hover {
+	text-decoration: underline;
+}
+
+form button {
+	background: #3A3A3A;
+	color: white;
+	height: 2.5em;
+	border: none;
+	border-radius: 5px;
+}
+
+
+/*footer*/
+
+footer p {
+	background: #1C1C1C;
+	padding: 40px;
+	text-align: center;
+	margin: 0px;
+}
+
+footer a {
+	color: #A2A2A2;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 860px) {
+
+	/*Main*/
+	main {
+		width: 95%;
+		margin: auto;
+	}
+
+	/*Navbar*/
+	.left {
+		width: 100%;
+	}
+
+	.right {
+		width: 180px;
+		margin: auto;
+	}
+
+	nav {
+	
+		display: block;
+	}
+
+	/*formulario*/
+	form {
+		width: 95%;
+		margin: auto;
+	}
+}
+
+@media (max-width: 650px) {
+
+	nav li {
+		display: block;
+		margin: 0.5em;
+		text-align: center;
+	}
+}

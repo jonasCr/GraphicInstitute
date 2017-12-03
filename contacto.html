@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Contacto</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/stylecontacto.css">
+		
+	</head>
+	<body>
+
+		<header>
+			<nav>
+				<div class="left ">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="">Conócenos</a></li>
+						<li><a href="#">Diseño gráfico</a></li>
+						<li><a href="#">Video y sonido</a></li>
+						<li><a href="#">Publicidad y creatividad</a></li>
+						<li><a href="contacto.html">Consultas</a></li>
+						<li><a href="#">Dónde estamos</a></li>
+					</ul>
+				</div>
+
+				<div class="right ">
+					<a href="#"><img src="img/facebook.png"></a>
+					<a href="#"><img src="img/twitter.png"></a>
+					<a href="#"><img src="img/youtube.png"></a>
+				</div>
+			</nav>
+
+			<div class="clear headtxt">
+				<img src="img/logo.svg">
+			</div>
+		</header>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.2685386139524!2d-3.6867041844044595!3d40.42505226305694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422897a2d297a5%3A0xdababf95ee2e918b!2sCalle+de+Goya%2C+16%2C+28001+Madrid!5e0!3m2!1ses!2ses!4v1511872321054" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<main>
+			<h2>Consultas</h2>
+			<p>Si tienes cualquier duda sobre nuestros cursos puedes completa el siguiente formulario. Para otras consultas contacta con nosotros mediante el teléfono o correo electrónico que figura más abajo.</p>
+			<h3>Formulario de consulta sobre cursos</h3>
+
+			<form method="get" action="mailto:donotsend@donotsend@notsend.com">
+				<p>Los campos marcados con un <span>*</span> con obligatorios.</p>
+				<div class="block">
+					<label for="nombre">Nombre <span>*</span></label>
+					<input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+
+					<label for="correo">Correo electrónico <span>*</span></label>
+					<input type="email" name="correo" id="correo" placeholder="nombre@dominio.es">
+
+					<label for="telefono">Teléfono <span>*</span></label>
+					<input type="number" name="telefono" id="telefono" placeholder="000 00 00 00">
+
+					<label for="cursos">Curso en el que estás interesado:</label>
+					<select id="cursos">
+						<option>Ilustración digital</option>
+						<option>Maquetación gráfica</option>
+						<option>Edición de vídeo</option>
+						<option>Edición de audío</option>
+						<option>Gestión del color</option>
+						<option>Técnicas creativas</option>
+					</select>
+
+					<label for="comentarios">Comentarios:</label>
+					<textarea id="comentarios" placeholder="Escribe aqui tus comentarios"></textarea>
+				</div>
+
+				<input type="checkbox" name="legal" id="legal">
+				<label ><small><span>*</span>Acepto las claúsulas de protección de datos detalladas más abajo en la Nota legal</small></label>
+				<p class="pequeno"><a href="#">Leer Nota Legal</a></p>
+
+				<div class="block">
+					<button type="submit">Enviar</button>
+				</div>
+			</form>
+
+			<h3>Puedes consultarnos cualquier otra duda</h3>
+			<p class="pequeno">Tel. 123 45 67 89</p>
+			<p class="pequeno"><a href="mailto:info@thisisnotanrealemail.com">info@thisisnotanrealemail.com</a></p>
+			<p class="pequeno">Graphic Institute - Calle Goya 16, Madrid</p>
+		</main>
+		<footer>
+			<p>&copy; Graphic Designer. Todos los derechos reservados. <a href="#">Política de privacidad</a></p>
+		</footer>
+	</body>
+</html>
