@@ -99,6 +99,10 @@ h1 {
 	color: #FCBF2C; 
 }
 
+.headtxt img {
+	width: 100%;
+}
+
 /*iframe*/
 
 iframe {
@@ -206,6 +210,13 @@ footer a:hover {
 }
 
 @media (max-width: 860px) {
+
+	/*Header*/
+	.headtxt {
+		margin: auto;
+		width: 70%;
+		padding-bottom: 20px;
+}
 
 	/*Main*/
 	main {

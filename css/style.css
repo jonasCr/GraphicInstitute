@@ -89,6 +89,10 @@ nav a:hover {
 	padding-bottom: 20px;
 }
 
+.headtxt img {
+	width: 100%;
+}
+
 h1 {
 	color: white;
 	font-size: 3em;
@@ -104,8 +108,7 @@ h1 {
 .title {
 	text-align: center;
 	width: 100%;
-/*	margin: 20px;
-*/	padding: 5px;
+	padding: 5px;
 }
 
 .title h2 {
@@ -228,10 +231,50 @@ footer a:hover {
 	}
 }
 
+@media (max-width: 860px) {
+
+	/*Header*/
+	.headtxt {
+		margin: auto;
+		width: 70%;
+		padding-bottom: 20px;
+}
+
+	/*Main*/
+	main {
+		width: 95%;
+		margin: auto;
+	}
+
+	/*Navbar*/
+	.left {
+		width: 100%;
+	}
+
+	.right {
+		width: 180px;
+		margin: auto;
+	}
+
+	nav {
+	
+		display: block;
+	}
+
+}
+
 @media (max-width: 650px) {
+	/*Header*/
+
 	nav li {
 		display: block;
 		margin: 0.5em;
 		text-align: center;
+	}
+
+	.headtxt {
+		margin: auto;
+		width: 70%;
+		padding-bottom: 20px;
 	}
 }
